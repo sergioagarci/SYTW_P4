@@ -3,7 +3,8 @@ builder = Rack::Builder.new do
       use Rack::Static, :urls => ['/public']
       use Rack::ShowExceptions
       use Rack::Lint
-      run PiedraPapelTijeras::App.new
+      
+      run RockPaperScissors::App.new
 end
 
 Rack::Handler::Thin.run builder, :Port => 8000
