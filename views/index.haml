@@ -1,6 +1,8 @@
 %html
   %head
-    %title Juego de Piedra Papel Tijera
+    %meta{'http-equiv' => 'Content-Type', :content => 'text/html', :charset => 'utf-8'}
+    %link{:rel => 'stylesheet', :href=>'public/css/stylesheet.css', :type=>'text/css'}
+    %title Piedra Papel Tijera
     %meta{'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8'}
     
   %body
@@ -11,9 +13,14 @@
       %br
       %br
       %h2= answer
-      %a{:href => '?choice=Piedra'} Piedra
-      %a{:href => '?choice=Papel'} Papel
-      %a{:href => '?choice=Tijera'} Tijera
+      .elemento
+          %a{href: "/?choice=Piedra"}
+            %img{:src=> 'public/img/piedra.jpg'}
+          %a{href: "/?choice=Papel"}
+            %img{:src=> 'public/img/papel.jpg'}
+          %a{href: "/?choice=Tijera"}
+            %img{:src=> 'public/img/tijera.jpg'}
+  
     %br
     %br
     %br
