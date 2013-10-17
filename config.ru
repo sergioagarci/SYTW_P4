@@ -6,5 +6,5 @@ builder = Rack::Builder.new do
       run RockPaperScissors::App.new
 end
 
-Rack::Handler::Thin.run builder, :Port => 9292
+Rack::Handler::Thin.run builder, :Port => 8080
 
