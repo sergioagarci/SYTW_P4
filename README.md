@@ -1,7 +1,7 @@
 Sistemas y Tecnologías Web
 ==========================
 
-Práctica 3: Añadir Template Haml al juego Piedra, Papel o Tijera.
+Práctica 3: Añadir Hojas de estilo al juego Piedra, Papel o Tijera.
 -----------------------------------------------------------------------------
 La práctica consiste añadir hojas de estilo para el template haml de la aplicación Piedra, Papel o Tijera.
 
